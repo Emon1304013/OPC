@@ -26,13 +26,13 @@ body{
     padding: 6px 5px 6px;
 }
 .list{
+  width: 40%;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin:20px auto;
 }
 li{
     list-style-type: none;
-    margin-right: 100px;
 }
 #cookie-widget{
     margin-top: 100px;
@@ -83,6 +83,18 @@ li{
   .dashboard-options{
     display: flex;
     justify-content: space-between;
+  }
+  
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke:green;
+    stroke-miterlimit: 10;
+    stroke-dashoffset: 0;
+    margin:5px;
   }
 
   .color{
