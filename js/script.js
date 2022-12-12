@@ -3,6 +3,8 @@ const languageSelector = document.getElementById("language");
 
 document.getElementById("color-picker").addEventListener("input",function(){
     document.getElementById("explore-button").style.backgroundColor = document.getElementById("color-picker").value;
+    document.getElementById("checkmark").style.backgroundColor = document.getElementById("color-picker").value;
+    
 })
 
 document.getElementById("position").addEventListener("change",function(){

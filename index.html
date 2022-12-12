@@ -13,8 +13,8 @@
       <div class="heading">
         <svg
           class="star"
-          width="20px"
-          height="20px"
+          width="30px"
+          height="30px"
           viewBox="0 0 362.62 388.52"
           data-spin-me="true"
         >
@@ -55,7 +55,7 @@
     <div class="dashboard">
       <div class="loader"></div>
       <p class="domain">Scanning your domain</p>
-      <hr style="width: 100px; margin: 0 auto; color: gray" />
+      <hr style="width: 100px; margin: 0 auto; color: gray; margin-bottom: 20px;" />
       <p>
         This shouldn't take too long. In the mean time, you customise your
         cookie widget. You can always cange these later.
@@ -67,11 +67,12 @@
           <p>Position</p>
           <p>Language</p>
         </div>
-        <div>
+        <div class="dashboard-options-right">
           <div class="color">
-            <div class="">Hello</div>
-            <div><svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="#fff" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg></div>
-            <div><input type="color" name="" id="color-picker" /></div>
+            <div class="color-box"></div>
+            <div id="checkmark"><img src="./images/tick.png" alt=""></div>
+           
+              <input type="color" id="color-picker" value="#E3D9D6"/>
           </div>
           <div>
             <select name="" id="position">
